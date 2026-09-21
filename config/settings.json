@@ -1,0 +1,33 @@
+{
+  "buddy_name": "Buddy",
+  "window_width": 184,
+  "window_height": 120,
+  "always_on_top": true,
+  "camera_enabled": false,
+  "microphone_enabled": true,
+  "memory_enabled": true,
+  "conversation_history": true,
+  "proactive_mode": true,
+  "minimum_idle_minutes": 10,
+  "max_proactive_per_hour": 3,
+  "quiet_hours": {
+    "start": "23:00",
+    "end": "07:00"
+  },
+  "sound_enabled": true,
+  "sound_volume": 0.8,
+  "movement_enabled": true,
+  "movement_wander": true,
+  "movement_speed": 180,
+  "movement_state": "WANDER",
+  "ai_provider": "lmstudio",
+  "lmstudio_base_url": "http://127.0.0.1:1234/v1",
+  "lmstudio_model": "qwen2.5-3b-instruct",
+  "hotkey": "F8",
+  "position": {
+    "x": 265,
+    "y": 82,
+    "screen": "\\\\.\\DISPLAY1",
+    "movement_state": "WANDER"
+  }
+}
